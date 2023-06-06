@@ -1,0 +1,23 @@
+# n = int(input())
+# for i in range(n):
+#     elem = str(input())
+
+# b = raw_input()
+# lst = b.split()
+# print(lst)
+# st = set(lst)
+# print(st)
+# a = raw_input()
+# lst2 = a.split()
+# print(lst2)
+# st2 = set(lst2)
+# print(st2)
+# print(a.issubset(b))
+
+b = raw_input()
+lst = set(b)
+print(lst)
+a = raw_input()
+lst2 = set(a)
+print(lst2)
+print(lst.issubset(lst2))
